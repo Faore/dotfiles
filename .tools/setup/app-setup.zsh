@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 ## Update brew and upgrade existing apps.
+brew tap homebrew/cask-fonts
 brew update
 brew upgrade
 
@@ -17,3 +18,4 @@ brew cask install iterm2
 brew cask install microsoft-edge
 brew cask install 1password
 brew cask install 1password-cli
+brew cask install font-fira-code

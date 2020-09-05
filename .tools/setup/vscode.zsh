@@ -1,0 +1,13 @@
+code --install-extension adamwalzer.scss-lint
+code --install-extension castwide.solargraph
+code --install-extension CraigMaslowski.erb
+code --install-extension misogi.ruby-rubocop
+code --install-extension mrmlnc.vscode-scss
+code --install-extension pavlitsky.yard
+code --install-extension rebornix.ruby
+code --install-extension shanehofstetter.rails-i18n
+code --install-extension vortizhe.simple-ruby-erb
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension yzhang.markdown-all-in-one
+code --install-extension kbysiec.vscode-search-everywhere
+code --install-extension wingrunr21.vscode-ruby
