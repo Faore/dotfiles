@@ -6,16 +6,16 @@ brew update
 brew upgrade
 
 ## Install common apps
-brew cask install sourcetree
-brew cask install visual-studio-code
-brew cask install slack
-brew cask install discord
-brew cask install tiles
-brew cask install alfred
-brew cask install firefox
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install microsoft-edge
-brew cask install 1password
-brew cask install 1password-cli
-brew cask install font-fira-code
+brew install --cask sourcetree
+brew install --cask visual-studio-code
+brew install --cask slack
+brew install --cask discord
+brew install --cask tiles
+brew install --cask alfred
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask iterm2
+brew install --cask microsoft-edge
+brew install --cask 1password
+brew install --cask 1password-cli
+brew install --cask font-fira-code

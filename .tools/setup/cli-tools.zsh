@@ -1,6 +1,8 @@
 #!/bin/zsh
 
 sudo xcode-select --install
+brew install wget
+
 CI=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
@@ -23,7 +25,6 @@ brew install openssh
 brew install zsh
 
 ## Utilities
-brew install wget
 brew install gnupg
 brew link gnupg
 brew install zip
@@ -37,7 +38,7 @@ brew install rbenv
 brew install ruby-build
 brew install nodenv
 brew install node-build
-brew cask install chromedriver
+brew install --cask chromedriver
 brew install imagemagick
 
 brew cleanup
