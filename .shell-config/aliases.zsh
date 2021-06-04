@@ -1,1 +1,16 @@
-alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
+alias dgit='git --git-dir ~/.dotfiles/ --work-tree=$HOME'
+alias be="bundle exec"
+alias dbe="dotenv bundle exec"
+alias bed="bundle exec dotenv"
+alias bel="bundle exec lc"
+alias ber="bundle exec rake"
+alias bes="bundle exec sidekiq"
+alias beds="dotenv bundle exec sidekiq"
+alias dber="dotenv bundle exec rake"
+alias refresh_db="pg_restore --verbose --host localhost --username `whoami` --data-only --no-owner --no-acl --dbname "
+alias itcrashed="rm /usr/local/var/postgresql@11/postmaster.pid;brew services restart postgresql@11"
+alias relinkpow="ln -sf ~/code/* ~/.pow"
+alias rail="rails"
+alias rl="rails"
+alias rls="ifconfig en0 | grep inet; rails s -b 0.0.0.0"
+alias cop_changes="git ls-files -m | xargs rubocop -A"
