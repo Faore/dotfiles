@@ -1,5 +1,5 @@
 #!/bin/zsh
 
-~/.tools/setup/cli-tools.zsh
-~/.tools/setup/app-setup.zsh
-~/.tools/setup/vscode.zsh
+source ~/.tools/setup/cli-tools.zsh
+source ~/.tools/setup/app-setup.zsh
+source ~/.tools/setup/vscode.zsh

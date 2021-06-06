@@ -2,20 +2,18 @@
 
 ## Update brew and upgrade existing apps.
 brew tap homebrew/cask-fonts
-brew update
-brew upgrade
 
 ## Install common apps
-brew install --cask sourcetree
-brew install --cask visual-studio-code
-brew install --cask slack
-brew install --cask discord
-brew install --cask tiles
-brew install --cask alfred
-brew install --cask firefox
-brew install --cask google-chrome
-brew install --cask iterm2
-brew install --cask microsoft-edge
-brew install --cask 1password
-brew install --cask 1password-cli
-brew install --cask font-fira-code
+install_cask_if_not_exists sourcetree
+install_cask_if_not_exists visual-studio-code
+install_cask_if_not_exists slack
+install_cask_if_not_exists discord
+install_cask_if_not_exists tiles
+install_cask_if_not_exists alfred
+install_cask_if_not_exists firefox
+install_cask_if_not_exists google-chrome
+install_cask_if_not_exists iterm2
+install_cask_if_not_exists microsoft-edge
+install_cask_if_not_exists 1password
+install_cask_if_not_exists 1password-cli
+install_cask_if_not_exists font-fira-code

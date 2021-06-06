@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Install VSCode extensions. Using --force updates them.
 code --install-extension adamwalzer.scss-lint --force
 code --install-extension castwide.solargraph --force

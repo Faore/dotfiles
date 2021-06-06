@@ -108,3 +108,7 @@ source ~/.shell-config/aliases.zsh
 if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
+
+# Signin to 1Password
+eval $(op signin faore)
+
