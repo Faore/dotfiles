@@ -7,7 +7,7 @@ Installation can be quite destructive. This will replace files in your home dire
 Clone the repository and checkout its contents into your home directory. You may need to run `xcode-select --install` to get access to git.
 ```bash
 git clone --bare git@github.com:faore/dotfiles $HOME/.dotfiles
-dotfiles checkout
+dgit checkout
 ```
 
 Run the setup script.
