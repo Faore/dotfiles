@@ -10,10 +10,10 @@ git clone --bare git@github.com:faore/dotfiles $HOME/.dotfiles
 dgit checkout
 ```
 
-Run the setup script.
+Source the setup script.
 It will install homebrew, common tools and utilities I use, VSCode along with the extensions I use.
 ```bash
-.tools/setup/setup.zsh
+source .tools/setup/setup.zsh
 ```
 
 iTerm2 will have automatically been installed. Open it then go to iTerm2 -> Preferences -> General -> Preferences. Check "Load preferences from a custom folder or URL. Set the directory to ~/.config/iterm2/pref. Set "Save changes" to "Automatically" to be able to commit preference changes to git.
