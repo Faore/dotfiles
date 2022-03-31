@@ -1,0 +1,17 @@
+[user]
+	name = Christopher Thomas
+	email = chris@tyemill.com
+	signingkey = ED2D27AFAFDF6DC02AAD38D185450BE38C34576B
+[core]
+	excludesfile = /Users/cthomas/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/cthomas/.stCommitMsg
+	gpgSign = true
+[pull]
+	rebase = false
