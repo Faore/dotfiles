@@ -110,5 +110,11 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
 # Signin to 1Password
-eval $(op signin faore)
+function ops() {
+  eval $(op signin faore)
+}
 
+# ops
+export AWS_PROFILE=lc41
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
